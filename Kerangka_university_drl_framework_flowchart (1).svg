@@ -1,0 +1,370 @@
+<svg viewBox="0 0 1400 1600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f8f9ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff3e0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1565c0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0d47a1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#283593;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="phaseGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2196f3;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#1976d2;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <linearGradient id="drlGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#388e3c;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <linearGradient id="sdgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff9800;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f57c00;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <!-- Drop shadows -->
+    <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="3" dy="3" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+    
+    <!-- Arrow marker -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+       refX="0" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+      </marker>
+    </defs>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1400" height="1600" fill="url(#bgGradient)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1400" height="100" fill="url(#headerGradient)"/>
+  <text x="700" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Pengembangan Kerangka Distribusi Artefak Digital</text>
+  <text x="700" y="65" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">Deep Reinforcement Learning untuk Optimasi Sumber Daya Universitas</text>
+  <text x="700" y="85" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Mendukung SDGs: Pendidikan Berkualitas, Kesetaraan & Inovasi</text>
+  
+  <!-- Phase 1: Needs Assessment -->
+  <rect x="50" y="130" width="300" height="180" rx="15" fill="url(#phaseGradient)" filter="url(#dropShadow)"/>
+  <text x="200" y="155" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Fase 1: Analisis Kebutuhan</text>
+  
+  <!-- University icon -->
+  <g transform="translate(80, 170)">
+    <rect x="0" y="10" width="40" height="25" fill="white" opacity="0.9"/>
+    <polygon points="0,10 20,0 40,10" fill="white" opacity="0.9"/>
+    <rect x="5" y="15" width="6" height="15" fill="#1565c0"/>
+    <rect x="15" y="15" width="6" height="15" fill="#1565c0"/>
+    <rect x="25" y="15" width="6" height="15" fill="#1565c0"/>
+  </g>
+  
+  <text x="200" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Identifikasi kesenjangan distribusi sumber daya</text>
+  <text x="200" y="200" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Analisis pola penggunaan saat ini</text>
+  <text x="200" y="215" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Survei kebutuhan institusi</text>
+  <text x="200" y="230" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Pemetaan peluang keselarasan SDG</text>
+  
+  <!-- Key Metrics Box 1 -->
+  <rect x="120" y="250" width="160" height="50" rx="8" fill="white" opacity="0.9" stroke="#1565c0" stroke-width="2"/>
+  <text x="200" y="270" text-anchor="middle" fill="#1565c0" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Metrik Utama</text>
+  <text x="200" y="285" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">500+ Universitas Disurvei</text>
+  <text x="200" y="295" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">85% Melaporkan Kesenjangan</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M 350 220 L 430 220" stroke="#333" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Phase 2: Data Collection -->
+  <rect x="450" y="130" width="300" height="180" rx="15" fill="url(#phaseGradient)" filter="url(#dropShadow)"/>
+  <text x="600" y="155" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Fase 2: Pengumpulan Data</text>
+  
+  <!-- Data icon -->
+  <g transform="translate(480, 170)">
+    <rect x="0" y="0" width="35" height="25" rx="3" fill="white" opacity="0.9"/>
+    <line x1="5" y1="8" x2="30" y2="8" stroke="#1565c0" stroke-width="2"/>
+    <line x1="5" y1="13" x2="25" y2="13" stroke="#1565c0" stroke-width="2"/>
+    <line x1="5" y1="18" x2="28" y2="18" stroke="#1565c0" stroke-width="2"/>
+  </g>
+  
+  <text x="600" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Agregasi data penggunaan historis</text>
+  <text x="600" y="200" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Analisis pola perilaku pengguna</text>
+  <text x="600" y="215" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Log akses sumber daya</text>
+  <text x="600" y="230" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Pengumpulan metrik kinerja</text>
+  
+  <!-- Key Metrics Box 2 -->
+  <rect x="520" y="250" width="160" height="50" rx="8" fill="white" opacity="0.9" stroke="#1565c0" stroke-width="2"/>
+  <text x="600" y="270" text-anchor="middle" fill="#1565c0" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Ukuran Dataset</text>
+  <text x="600" y="285" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">10TB Data Historis</text>
+  <text x="600" y="295" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">2M+ Interaksi Pengguna</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M 750 220 L 830 220" stroke="#333" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Phase 3: DRL Model Design -->
+  <rect x="850" y="130" width="300" height="180" rx="15" fill="url(#drlGradient)" filter="url(#dropShadow)"/>
+  <text x="1000" y="155" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Fase 3: Desain Model DRL</text>
+  
+  <!-- Neural network icon -->
+  <g transform="translate(880, 170)">
+    <circle cx="5" cy="5" r="3" fill="white" opacity="0.9"/>
+    <circle cx="20" cy="0" r="3" fill="white" opacity="0.9"/>
+    <circle cx="20" cy="10" r="3" fill="white" opacity="0.9"/>
+    <circle cx="35" cy="5" r="3" fill="white" opacity="0.9"/>
+    <line x1="8" y1="5" x2="17" y2="0" stroke="white" stroke-width="1" opacity="0.7"/>
+    <line x1="8" y1="5" x2="17" y2="10" stroke="white" stroke-width="1" opacity="0.7"/>
+    <line x1="23" y1="0" x2="32" y2="5" stroke="white" stroke-width="1" opacity="0.7"/>
+    <line x1="23" y1="10" x2="32" y2="5" stroke="white" stroke-width="1" opacity="0.7"/>
+  </g>
+  
+  <text x="1000" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Interaksi agen-lingkungan</text>
+  <text x="1000" y="200" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Optimasi fungsi reward</text>
+  <text x="1000" y="215" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Algoritma policy gradient</text>
+  <text x="1000" y="230" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Koordinasi multi-agen</text>
+  
+  <!-- Key Metrics Box 3 -->
+  <rect x="920" y="250" width="160" height="50" rx="8" fill="white" opacity="0.9" stroke="#4caf50" stroke-width="2"/>
+  <text x="1000" y="270" text-anchor="middle" fill="#4caf50" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Arsitektur Model</text>
+  <text x="1000" y="285" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">Deep Q-Network (DQN)</text>
+  <text x="1000" y="295" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">Actor-Critic Framework</text>
+  
+  <!-- Arrow down from Phase 3 to Training -->
+  <path d="M 1000 310 L 1000 370" stroke="#333" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Training Phase -->
+  <rect x="850" y="390" width="300" height="140" rx="15" fill="url(#drlGradient)" filter="url(#dropShadow)"/>
+  <text x="1000" y="415" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Pelatihan & Optimasi</text>
+  
+  <!-- Training icon -->
+  <g transform="translate(880, 430)">
+    <rect x="0" y="0" width="30" height="20" rx="3" fill="white" opacity="0.9"/>
+    <rect x="3" y="3" width="24" height="2" fill="#4caf50"/>
+    <rect x="3" y="7" width="18" height="2" fill="#4caf50"/>
+    <rect x="3" y="11" width="21" height="2" fill="#4caf50"/>
+    <rect x="3" y="15" width="15" height="2" fill="#4caf50"/>
+  </g>
+  
+  <text x="1000" y="450" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Pengaturan lingkungan simulasi</text>
+  <text x="1000" y="465" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Penyesuaian hyperparameter</text>
+  <text x="1000" y="480" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Validasi kinerja</text>
+  
+  <!-- Training Metrics -->
+  <rect x="920" y="490" width="160" height="30" rx="8" fill="white" opacity="0.9" stroke="#4caf50" stroke-width="2"/>
+  <text x="1000" y="510" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">Pelatihan: 10.000 Episode</text>
+  
+  <!-- Arrow left from Training to Implementation -->
+  <path d="M 850 460 L 770 460" stroke="#333" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Phase 4: Implementation -->
+  <rect x="450" y="390" width="300" height="140" rx="15" fill="url(#phaseGradient)" filter="url(#dropShadow)"/>
+  <text x="600" y="415" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Fase 4: Implementasi</text>
+  
+  <!-- Implementation icon -->
+  <g transform="translate(480, 430)">
+    <rect x="0" y="0" width="25" height="20" rx="2" fill="white" opacity="0.9"/>
+    <circle cx="12.5" cy="10" r="6" fill="none" stroke="#1565c0" stroke-width="2"/>
+    <polygon points="10,10 12,12 16,8" fill="#1565c0"/>
+  </g>
+  
+  <text x="600" y="450" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Deployment sistem</text>
+  <text x="600" y="465" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Integrasi dengan infrastruktur</text>
+  <text x="600" y="480" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Pengembangan antarmuka pengguna</text>
+  
+  <!-- Implementation Metrics -->
+  <rect x="520" y="490" width="160" height="30" rx="8" fill="white" opacity="0.9" stroke="#1565c0" stroke-width="2"/>
+  <text x="600" y="510" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">Peluncuran: 50 Universitas</text>
+  
+  <!-- Arrow left from Implementation to Evaluation -->
+  <path d="M 450 460 L 370 460" stroke="#333" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Phase 5: Evaluation -->
+  <rect x="50" y="390" width="300" height="140" rx="15" fill="url(#phaseGradient)" filter="url(#dropShadow)"/>
+  <text x="200" y="415" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Fase 5: Evaluasi</text>
+  
+  <!-- Evaluation icon -->
+  <g transform="translate(80, 430)">
+    <rect x="0" y="0" width="25" height="18" fill="white" opacity="0.9"/>
+    <rect x="3" y="15" width="4" height="3" fill="#1565c0"/>
+    <rect x="9" y="12" width="4" height="6" fill="#1565c0"/>
+    <rect x="15" y="8" width="4" height="10" fill="#1565c0"/>
+    <rect x="21" y="5" width="4" height="13" fill="#1565c0"/>
+  </g>
+  
+  <text x="200" y="450" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Analisis metrik kinerja</text>
+  <text x="200" y="465" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Penilaian kepuasan pengguna</text>
+  <text x="200" y="480" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">• Pengukuran dampak SDG</text>
+  
+  <!-- Evaluation Metrics -->
+  <rect x="120" y="490" width="160" height="30" rx="8" fill="white" opacity="0.9" stroke="#1565c0" stroke-width="2"/>
+  <text x="200" y="510" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10">Peningkatan Efisiensi 40%</text>
+  
+  <!-- Central Digital Resources Section -->
+  <rect x="450" y="560" width="500" height="120" rx="15" fill="url(#sdgGradient)" filter="url(#dropShadow)"/>
+  <text x="700" y="585" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Sumber Daya & Artefak Digital</text>
+  
+  <!-- Resource icons -->
+  <g transform="translate(480, 600)">
+    <!-- E-learning icon -->
+    <rect x="0" y="0" width="25" height="18" rx="2" fill="white" opacity="0.9"/>
+    <rect x="3" y="3" width="19" height="2" fill="#ff9800"/>
+    <rect x="3" y="7" width="15" height="2" fill="#ff9800"/>
+    <rect x="3" y="11" width="18" height="2" fill="#ff9800"/>
+    <text x="35" y="12" fill="white" font-family="Arial, sans-serif" font-size="10">E-Learning</text>
+  </g>
+  
+  <g transform="translate(580, 600)">
+    <!-- Research data icon -->
+    <circle cx="10" cy="9" r="8" fill="white" opacity="0.9"/>
+    <path d="M 6 6 L 14 12 M 6 12 L 14 6" stroke="#ff9800" stroke-width="2"/>
+    <text x="25" y="12" fill="white" font-family="Arial, sans-serif" font-size="10">Data Riset</text>
+  </g>
+  
+  <g transform="translate(720, 600)">
+    <!-- Digital library icon -->
+    <rect x="0" y="2" width="20" height="14" fill="white" opacity="0.9"/>
+    <rect x="2" y="0" width="16" height="2" fill="#ff9800"/>
+    <line x1="4" y1="6" x2="16" y2="6" stroke="#ff9800" stroke-width="1"/>
+    <line x1="4" y1="9" x2="14" y2="9" stroke="#ff9800" stroke-width="1"/>
+    <line x1="4" y1="12" x2="16" y2="12" stroke="#ff9800" stroke-width="1"/>
+    <text x="25" y="12" fill="white" font-family="Arial, sans-serif" font-size="10">Perpustakaan Digital</text>
+  </g>
+  
+  <g transform="translate(850, 600)">
+    <!-- Collaboration tools icon -->
+    <circle cx="8" cy="6" r="4" fill="white" opacity="0.9"/>
+    <circle cx="16" cy="6" r="4" fill="white" opacity="0.9"/>
+    <circle cx="12" cy="14" r="4" fill="white" opacity="0.9"/>
+    <text x="25" y="12" fill="white" font-family="Arial, sans-serif" font-size="10">Kolaborasi</text>
+  </g>
+  
+  <text x="700" y="645" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Distribusi adaptif berdasarkan pola pengguna, kebutuhan institusi, dan permintaan waktu nyata</text>
+  <text x="700" y="660" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Analitik prediktif untuk optimasi alokasi sumber daya</text>
+  
+  <!-- SDG Goals Section -->
+  <rect x="50" y="720" width="1100" height="120" rx="15" fill="rgba(255,152,0,0.1)" stroke="url(#sdgGradient)" stroke-width="3"/>
+  <text x="600" y="745" text-anchor="middle" fill="#f57c00" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Mendukung Tujuan Pembangunan Berkelanjutan PBB</text>
+  
+  <!-- SDG 4: Quality Education -->
+  <g transform="translate(120, 760)">
+    <circle cx="15" cy="15" r="12" fill="#c5282f"/>
+    <text x="15" y="20" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">4</text>
+    <text x="35" y="12" fill="#c5282f" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Pendidikan Berkualitas</text>
+    <text x="35" y="25" fill="#666" font-family="Arial, sans-serif" font-size="9">Akses ditingkatkan ke sumber daya pendidikan</text>
+  </g>
+  
+  <!-- SDG 10: Reduced Inequalities -->
+  <g transform="translate(420, 760)">
+    <circle cx="15" cy="15" r="12" fill="#dd1367"/>
+    <text x="15" y="20" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11" font-weight="bold">10</text>
+    <text x="35" y="12" fill="#dd1367" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Mengurangi Ketimpangan</text>
+    <text x="35" y="25" fill="#666" font-family="Arial, sans-serif" font-size="9">Akses setara ke sumber daya digital</text>
+  </g>
+  
+  <!-- SDG 9: Industry Innovation -->
+  <g transform="translate(720, 760)">
+    <circle cx="15" cy="15" r="12" fill="#fd6925"/>
+    <text x="15" y="20" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">9</text>
+    <text x="35" y="12" fill="#fd6925" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Inovasi & Infrastruktur</text>
+    <text x="35" y="25" fill="#666" font-family="Arial, sans-serif" font-size="9">Solusi berbasis AI yang canggih</text>
+  </g>
+  
+  <!-- Key Performance Indicators -->
+  <rect x="200" y="880" width="1000" height="150" rx="15" fill="rgba(33,150,243,0.1)" stroke="#2196f3" stroke-width="2"/>
+  <text x="700" y="905" text-anchor="middle" fill="#1976d2" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Indikator Kinerja Utama & Hasil yang Diharapkan</text>
+  
+  <!-- KPI Grid -->
+  <g transform="translate(250, 920)">
+    <rect x="0" y="0" width="180" height="80" rx="8" fill="white" stroke="#2196f3" stroke-width="1"/>
+    <text x="90" y="20" text-anchor="middle" fill="#1976d2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Peningkatan Efisiensi</text>
+    <text x="90" y="40" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="24" font-weight="bold">40%</text>
+    <text x="90" y="55" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">Kecepatan alokasi sumber daya</text>
+    <text x="90" y="68" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">dibanding baseline</text>
+  </g>
+  
+  <g transform="translate(460, 920)">
+    <rect x="0" y="0" width="180" height="80" rx="8" fill="white" stroke="#4caf50" stroke-width="1"/>
+    <text x="90" y="20" text-anchor="middle" fill="#388e3c" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Kepuasan Pengguna</text>
+    <text x="90" y="40" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="24" font-weight="bold">92%</text>
+    <text x="90" y="55" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">Umpan balik positif dari</text>
+    <text x="90" y="68" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">universitas peserta</text>
+  </g>
+  
+  <g transform="translate(670, 920)">
+    <rect x="0" y="0" width="180" height="80" rx="8" fill="white" stroke="#ff9800" stroke-width="1"/>
+    <text x="90" y="20" text-anchor="middle" fill="#f57c00" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Peningkatan Kolaborasi</text>
+    <text x="90" y="40" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="24" font-weight="bold">65%</text>
+    <text x="90" y="55" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">Berbagi sumber daya</text>
+    <text x="90" y="68" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">antar-institusi</text>
+  </g>
+  
+  <g transform="translate(880, 920)">
+    <rect x="0" y="0" width="180" height="80" rx="8" fill="white" stroke="#9c27b0" stroke-width="1"/>
+    <text x="90" y="20" text-anchor="middle" fill="#7b1fa2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Waktu Respons</text>
+    <text x="90" y="40" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="24" font-weight="bold">60%</text>
+    <text x="90" y="55" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">Penyebaran informasi</text>
+    <text x="90" y="68" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="10">lebih cepat</text>
+  </g>
+  
+  <!-- Technical Innovation Highlight -->
+  <rect x="100" y="1070" width="1200" height="100" rx="15" fill="rgba(76,175,80,0.1)" stroke="#4caf50" stroke-width="2"/>
+  <text x="700" y="1095" text-anchor="middle" fill="#388e3c" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Inovasi Deep Reinforcement Learning</text>
+  
+  <!-- DRL Features -->
+  <g transform="translate(150, 1110)">
+    <circle cx="8" cy="8" r="6" fill="#4caf50"/>
+    <text x="8" y="12" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">✓</text>
+    <text x="20" y="12" fill="#333" font-family="Arial, sans-serif" font-size="11">Sistem Pembelajaran Multi-Agen</text>
+  </g>
+  
+  <g transform="translate(380, 1110)">
+    <circle cx="8" cy="8" r="6" fill="#4caf50"/>
+    <text x="8" y="12" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">✓</text>
+    <text x="20" y="12" fill="#333" font-family="Arial, sans-serif" font-size="11">Analitik Prediktif Real-time</text>
+  </g>
+  
+  <g transform="translate(600, 1110)">
+    <circle cx="8" cy="8" r="6" fill="#4caf50"/>
+    <text x="8" y="12" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">✓</text>
+    <text x="20" y="12" fill="#333" font-family="Arial, sans-serif" font-size="11">Strategi Adaptif Berkelanjutan</text>
+  </g>
+  
+  <g transform="translate(850, 1110)">
+    <circle cx="8" cy="8" r="6" fill="#4caf50"/>
+    <text x="8" y="12" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">✓</text>
+    <text x="20" y="12" fill="#333" font-family="Arial, sans-serif" font-size="11">Optimasi Berbasis Reward</text>
+  </g>
+  
+  <g transform="translate(150, 1140)">
+    <circle cx="8" cy="8" r="6" fill="#4caf50"/>
+    <text x="8" y="12" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">✓</text>
+    <text x="20" y="12" fill="#333" font-family="Arial, sans-serif" font-size="11">Pembelajaran Transfer Knowledge</text>
+  </g>
+  
+  <g transform="translate(380, 1140)">
+    <circle cx="8" cy="8" r="6" fill="#4caf50"/>
+    <text x="8" y="12" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">✓</text>
+    <text x="20" y="12" fill="#333" font-family="Arial, sans-serif" font-size="11">Skalabilitas Dinamis</text>
+  </g>
+  
+  <g transform="translate(600, 1140)">
+    <circle cx="8" cy="8" r="6" fill="#4caf50"/>
+    <text x="8" y="12" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">✓</text>
+    <text x="20" y="12" fill="#333" font-family="Arial, sans-serif" font-size="11">Integrasi Data Heterogen</text>
+  </g>
+  
+  <g transform="translate(850, 1140)">
+    <circle cx="8" cy="8" r="6" fill="#4caf50"/>
+    <text x="8" y="12" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">✓</text>
+    <text x="20" y="12" fill="#333" font-family="Arial, sans-serif" font-size="11">Monitoring Kinerja Berkelanjutan</text>
+  </g>
+  
+  <!-- Global Impact Footer -->
+  <rect x="0" y="1200" width="1400" height="80" fill="rgba(33,150,243,0.05)" stroke="#2196f3" stroke-width="1"/>
+  <text x="700" y="1230" text-anchor="middle" fill="#1976d2" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Dampak Global: Transformasi Ekosistem Pendidikan Tinggi Melalui AI</text>
+  <text x="700" y="1250" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">Menciptakan jaringan distribusi sumber daya cerdas yang mendukung pembelajaran berkelanjutan</text>
+  <text x="700" y="1265" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">dan kolaborasi internasional dalam mencapai tujuan pembangunan berkelanjutan</text>
+  
+</svg>
